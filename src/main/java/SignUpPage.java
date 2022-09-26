@@ -1,6 +1,6 @@
 import org.openqa.selenium.By;
 
-public class SignUpPage extends BasePage {
+public class SignUpPage extends HomePage {
 
     public By signInForm = By.xpath(".//*[@class='a-box']");
     public By userNameField = By.xpath(".//input[@id='ap_customer_name']");

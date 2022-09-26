@@ -1,7 +1,7 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class LanguagePage extends BasePage{
+public class LanguagePage extends HomePage {
     public By languageList = By.xpath(".//div[@class='a-row a-spacing-mini']");
     public String itemInList = ".//[@value='%s']";
 
